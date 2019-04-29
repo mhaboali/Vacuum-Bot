@@ -13,7 +13,7 @@ The Vacuum-Bot is a vacuum cleaner robot, where we installed many ROS packages t
 5. tf packages
 
 ## Setup the repo on your local machine
-1. Clone the repo into you $HOME
+1. Clone the repo under $HOME
 2. cd inside the repo directory then cd into catkin_ws/
 3. run " catkin clean "
 4. run " catkin build "
