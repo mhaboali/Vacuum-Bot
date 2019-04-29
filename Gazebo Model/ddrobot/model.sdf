@@ -1,0 +1,36 @@
+<?xml version="1.0" ?>
+<sdf version="1.5">
+  <model name="dd_body"> 
+    <pose>0 0 0.15 0 -0 0</pose>
+    <link name="base_link">
+       <inertial>
+          <mass>4</mass>
+          <inertia>
+            <ixx>0.037306859</ixx>
+            <iyy>0.06851567775</iyy>
+            <izz>0.03896211011</izz>
+            <ixy>0</ixy>
+            <ixz>0</ixz>
+            <iyz>0</iyz>
+          </inertia>          
+        </inertial>        
+        <collision name="collision">
+          <geometry>            
+            <cylinder>
+              <radius>0.3092005</radius>
+              <length>0.2044632</length>
+            </cylinder>        
+          </geometry>
+        </collision>
+        <visual name="visual">                     
+           <geometry>
+           <mesh>
+             <uri>model://ddrobot/meshes/1.dae</uri>
+             <scale>.002 .002 .002</scale>
+           </mesh>
+         </geometry>
+        </visual>
+    </link>
+    
+ </model>
+</sdf>
