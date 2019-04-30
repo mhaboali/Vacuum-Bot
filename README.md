@@ -18,6 +18,7 @@ The Vacuum-Bot is a vacuum cleaner robot, where we installed many ROS packages t
 3. run " catkin clean "
 4. run " catkin build "
 5. run " source devel/setup.bash "
+6. Locate the gazebo model under proper directory to be seen by the gazebo gui: To create a directory under $HOME named " model_editor_models " then place the contents of Gazebo Model folder into this folder.
 
 ## Running the Simulation
 #### Gazebo Environment
